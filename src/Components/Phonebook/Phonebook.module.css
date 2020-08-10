@@ -1,0 +1,23 @@
+.PhonebookBlock {
+  max-width: 420px;
+  min-width: 310px;
+  margin: 0 auto;
+  padding: 0 5px;
+}
+
+.PhonebookMainTitle {
+  margin: 0 0 10px 0;
+  font-family: sans-serif;
+  font-size: 30px;
+  line-height: 1.2;
+  color: rgb(0, 106, 177);
+  font-weight: 900;
+}
+
+.ToastNote {
+  top: -5px;
+  right: 30%;
+  padding: 6px 4px;
+  margin: 0;
+  width: 250px;
+}

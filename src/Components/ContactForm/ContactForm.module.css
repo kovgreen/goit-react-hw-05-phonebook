@@ -1,0 +1,52 @@
+.FormBlock {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 30px;
+	padding: 10px;
+	box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.3);
+	border-radius: 5px;
+}
+
+.Label {
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 1.2;
+	font-weight: 500;
+}
+
+.Input {
+	display: block;
+	width: 100%;
+	margin-bottom: 15px;
+	padding: 8px 5px;
+	border-radius: 4px;
+	font-size: 16px;
+	border: 2px solid rgba(120, 120, 120, 0.3);
+}
+
+.Input:focus {
+	box-shadow: inset 0px 0px 5px 0px rgba(0, 106, 177, 0.5);
+	outline: none;
+}
+
+.Button {
+	display: block;
+	width: 100%;
+	padding: 10px 5px;
+	font-family: sans-serif;
+	font-size: 16px;
+	line-height: 1.2;
+	font-weight: 400;
+	color: #fff;
+	background-color: rgb(0, 106, 177);
+	border: none;
+	border-radius: 4px;
+	box-shadow: 0px 2px 2px -1px rgba(0, 0, 0, 0.75);
+	transition: all 0.2s ease-in;
+}
+
+.Button:hover,
+.Button:focus {
+	cursor: pointer;
+	background-color: rgb(19, 19, 138);
+}

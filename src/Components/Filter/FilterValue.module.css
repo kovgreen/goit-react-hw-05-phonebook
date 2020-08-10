@@ -1,0 +1,32 @@
+.FilterBlock {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px 10px 15px;
+  box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+}
+
+.Label {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  font-weight: 500;
+}
+
+.Input {
+  display: block;
+  width: 100%;
+  padding: 8px 5px;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  line-height: 1.2;
+  border-radius: 4px;
+  border: 2px solid rgba(120, 120, 120, 0.3);
+}
+
+.Intut:hover,
+.Input:focus {
+  box-shadow: inset 0px 0px 5px 0px rgba(0, 106, 177, 0.5);
+  outline: none;
+}
